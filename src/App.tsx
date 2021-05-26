@@ -2,7 +2,7 @@ import React from "react";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-import "./App.scss";
+import styles from "./App.module.scss";
 import { Challenge1 } from "./components/Challenge1/Challenge1";
 import { Challenge2 } from "./components/Challenge2/Challenge2";
 import { Challenge3 } from "./components/Challenge3/Challenge3";
@@ -10,7 +10,7 @@ import { Home } from "./components/Home/Home";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <h1>React App Playground</h1>
       <Router>
         <nav>
