@@ -20,7 +20,7 @@ export const Challenge3: React.FC = () => {
         <ul>
           <li>
             Your Solution component needs to be modified to take 2 props: "fizz"
-            and "buzz", both are numbers. If you can use TypeScript,{" "}
+            and "buzz", both are numbers. If you can use TypeScript, please do so where appropriate.
           </li>
           <li>Clicking the button below should update the counter +1.</li>
           <li>

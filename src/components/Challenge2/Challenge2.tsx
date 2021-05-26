@@ -15,7 +15,7 @@ export const Challenge2: React.FC = () => {
       <h2>Challenge 2</h2>
       <h3>Double Click</h3>
       <div>
-        This challenge exercises your React component development skills.
+        This challenge exercises your React component development skills. If you can use TypeScript, please do so where appropriate.
         <ul>
           <li>
             Clicking the button below should update the div with the time of the
