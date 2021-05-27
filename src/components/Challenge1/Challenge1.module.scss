@@ -19,13 +19,84 @@
 
   .FlagOfJapan {
     background-color: lightblue;
+    background-color: white;
+    position: relative;
+    width: 280px;
+    height: 180px;
+    border: 10px solid lightgray;
+  }
+
+  .FlagOfJapanInnerDiv {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 40px;
+    left: 90px;
   }
 
   .FlagOfEngland {
-    background-color: lightyellow;
+    background-color: white;
+    position: relative;
+    width: 280px;
+    height: 180px;
+    border: 10px solid lightgray;
+  }
+  .FlagOfEnglandInnerDiv1 {
+    background-color: red;
+    width: 20px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 130px;
+  }
+  .FlagOfEnglandInnerDiv2 {
+    background-color: red;
+    width: 280px;
+    height: 20px;
+    position: absolute;
+    top: 80px;
+    left: 0px;
   }
 
   .FlagOfUAE {
-    background-color: lightgreen;
+    background-color: white;
+    position: relative;
+    width: 280px;
+    height: 180px;
+    border: 10px solid lightgray;
+  }
+  .FlagOfUAEInnerDiv1 {
+    background-color: red;
+    width: 60px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+  }
+  .FlagOfUAEInnerDiv2 {
+    background-color: darkgreen;
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 60px;
+  }
+  .FlagOfUAEInnerDiv3 {
+    background-color: white;
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+  }
+  .FlagOfUAEInnerDiv4 {
+    background-color: black;
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    top: 120px;
+    left: 60px;
   }
 }

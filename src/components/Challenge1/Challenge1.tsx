@@ -5,15 +5,28 @@ import flagUAEImg from "./flag-uae.png";
 import flagJapanImg from "./flag-japan.png";
 
 export const FlagOfJapan: React.FC = () => {
-  return <div className={styles.FlagOfJapan}>TODO: Flag of Japan</div>;
+  return (
+  <div className={styles.FlagOfJapan}>
+    <div className={styles.FlagOfJapanInnerDiv}></div>
+  </div>
+  );
+  
 };
 
 export const FlagOfEngland: React.FC = () => {
-  return <div className={styles.FlagOfEngland}>TODO: Flag of England</div>;
+  return <div className={styles.FlagOfEngland}>
+    <div className={styles.FlagOfEnglandInnerDiv1}></div>
+    <div className={styles.FlagOfEnglandInnerDiv2}></div>
+  </div>;
 };
 
 export const FlagOfUAE: React.FC = () => {
-  return <div className={styles.FlagOfUAE}>TODO: Flag of UAE</div>;
+  return <div className={styles.FlagOfUAE}>
+    <div className={styles.FlagOfUAEInnerDiv1}></div>
+    <div className={styles.FlagOfUAEInnerDiv2}></div>
+    <div className={styles.FlagOfUAEInnerDiv3}></div>
+    <div className={styles.FlagOfUAEInnerDiv4}></div>
+  </div>;
 };
 
 export const Challenge1: React.FC = () => {

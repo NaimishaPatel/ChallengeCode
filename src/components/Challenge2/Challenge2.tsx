@@ -1,10 +1,27 @@
+import { useState} from 'react';
 import styles from "./Challenge2.module.scss";
 
+
 export const Solution: React.FC = () => {
+  const [date, setDate] = useState('')
+  const handleDate = () => {
+    let newDate = new Date()
+    setDate(newDate.toString())
+    const timeId = setTimeout(() => {
+       setDate('')
+    }, 3000)
+
+    return () => {
+      clearTimeout(timeId)
+    }
+   
+  }
   return (
     <>
-      <button>CLICK ME</button>
-      <div>Last Click Time: TODO</div>
+      <button onClick={handleDate}>CLICK ME</button>
+      <div>
+        {!date ? null :date.toString() }
+      </div>
     </>
   );
 };

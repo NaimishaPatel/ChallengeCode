@@ -1,11 +1,30 @@
+import { useState } from 'react';
 import styles from "./Challenge3.module.scss";
 
 export const Solution: React.FC = () => {
+  let fizz = 3, buzz = 5;
+  const [counter, setCounter] = useState(0)
+  const handleCounter = () => {
+    setCounter(counter + 1)
+  }
+  const fizzbuzzDisplay = () => {
+   if (counter === 0) {
+      return counter
+    } else if (counter % fizz === 0 && counter % buzz === 0) {
+      return 'fizzbuzz'
+    } else if (counter % fizz===0) {
+      return 'fizz'
+    } else if (counter % buzz === 0) {
+      return 'buzz'
+    }  else {
+      return counter;
+    }
+  }
   return (
     <>
-      <button>CLICK ME</button>
-      <div>Counter: TODO</div>
-      <div>fizzbuzz</div>
+      <button onClick={handleCounter}>CLICK ME</button>
+      <div >Counter: TODO</div>
+      <div>{fizzbuzzDisplay()}</div>
     </>
   );
 };
